@@ -1,0 +1,102 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+
+
+/* home */
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav h3 {
+    padding-left: 20px;
+}
+.nav ul{
+display: flex;
+list-style: none;
+
+}
+
+.nav ul li{
+    margin: 0px 20px;
+}
+.nav ul a {
+    text-decoration: none;
+}
+
+
+.home {
+    background-image: url("./hamburger.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    /* border-bottom: 3px black solid ; */
+}
+.home h1{
+    position: absolute;
+    bottom:  10px;
+    left: 20px;
+}
+
+/* about */
+.about{
+    display: flex;
+    padding: 60px 0 ;
+}
+
+.about-info{
+    text-align: center;
+    padding: 20px ;
+}
+
+.about-info p{
+text-align: left;
+}
+
+.word {
+    background-color: gray;
+
+}
+
+
+/* menu */
+.menu{
+    display: flex;
+    padding: 60px 0 ;
+}
+.menu-info{
+    text-align: left;
+    padding: 20px;
+}
+
+.menu-info h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+/* contact */
+input{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 10px 5px;
+    border-bottom: 1.5px gray solid;
+    
+}
+.contact h3{
+    color: rgb(22, 137, 137);
+}
+
+input:focus{
+    border: 5px solid black;
+}
